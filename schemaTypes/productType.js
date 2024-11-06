@@ -78,8 +78,7 @@ export const productType = defineType({
     defineField({
       name: 'ingredients',
       title: 'Thành phần',
-      type: 'array',
-      of: [{type: 'string'}]
+      type: 'string',
     }),
     defineField({
       name: 'sizeOptions',
