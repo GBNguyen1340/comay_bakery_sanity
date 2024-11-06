@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'BanhCoMay',
 
-  projectId: process.env.SANITY_PROJECT_ID ?? "your_project_id",
-  dataset: process.env.DATASET ?? "your_dataset",
+  projectId: process.env.SANITY_STUDIO_PROJECT_ID ?? "yourProjectId",
+  dataset: process.env.SANITY_STUDIO_DATASET ?? "yourDataset",
 
   plugins: [structureTool(), visionTool()],
 
