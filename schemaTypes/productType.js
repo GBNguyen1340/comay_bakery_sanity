@@ -78,7 +78,8 @@ export const productType = defineType({
     defineField({
       name: 'noted',
       title: 'Ghi chú',
-      type: 'string',
+      type: 'array',
+      of: [{type: 'block'}]
     }),
     defineField({
       name: 'sizeOptions',
