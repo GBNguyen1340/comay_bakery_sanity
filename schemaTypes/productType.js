@@ -87,6 +87,12 @@ export const productType = defineType({
       type: 'array',
       of: [{ type: 'sizeOption' }],
       validation: Rule => Rule.required().min(1)
+    }),
+    defineField({
+      name: 'bestSeller',
+      title: 'Bán chạy',
+      type: 'boolean',
+      initialValue: false
     })
   ]
 })
