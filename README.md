@@ -1,6 +1,9 @@
 # 🎂 Birthday Jelly Cake Store
 
-Welcome to the **Birthday Jelly Cake Store** repository! This project is a website built for selling delicious and colorful jelly cakes. Developed with **Next.js**, deployed on **Vercel**, and powered by **Sanity** as a headless CMS for backend content management. 
+Cỏ May Bakery is a web application showcasing and managing bakery products, built using Next.js and Sanity CMS, and deployed on Vercel. 
+Check example website here: https://co-may-bakery.vercel.app/ 
+FrontEnd repo: https://github.com/GBNguyen1340/CoMayBakery
+BackEnd repo: https://github.com/GBNguyen1340/comay_bakery_sanity
 
 This source code is free for anyone to download, modify, and use in their projects!
 
